@@ -1,0 +1,97 @@
+body {
+    cursor:url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/default.cur), default;
+}
+a, img {
+    cursor:url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/pointer.cur), default;
+}
+
+#realtime_duration {
+    font-family: 'LiuFont', sans-serif; /* 或其他指定字体 */
+}
+
+#subtitle {
+    font-family: 'LiuFont', sans-serif; /* 打印文字字体 */
+}
+
+.site-name {
+    font-family: 'LiuFont', sans-serif; /* 左上角标题字体 */
+}
+
+/*[data-theme='light'] h1 {!*这里可以改成自己喜欢的渐变色*!*/
+/*    background: linear-gradient(to right, #365262 0%, #1c6a54 50%, #254050 100%);*/
+/*    background-clip: text;*/
+/*    -webkit-background-clip: text;*/
+/*    -webkit-text-fill-color: transparent;*/
+/*}*/
+/*[data-theme='dark'] h1 {!*这里可以改成自己喜欢的渐变色*!*/
+/*    background: linear-gradient(to right, #ffa9c4 0%, #7fe6e1 50%, #e68daa 100%);*/
+/*    background-clip: text;*/
+/*    -webkit-background-clip: text;*/
+/*    -webkit-text-fill-color: transparent;*/
+/*}*/
+
+
+[data-theme='light'] #page-header.nav-fixed > #nav, [data-theme='light'] #page-header.not-top-img > #nav {
+    background: transparent;  /*顶部导航栏背景颜色*/
+}
+
+[data-theme='dark'] #page-header.nav-fixed > #nav, [data-theme='dark'] #page-header.not-top-img > #nav {
+    background: transparent; /*顶部导航栏背景颜色*/
+}
+
+[data-theme='dark'] #recent-posts > .recent-post-item, #aside-content .card-widget, #page, #aside-content .card-info #card-info-btn, #vcomment .vbtn, #archive {
+    background: #00000094; /*卡片背景颜色*/
+}
+#post {
+    background: #00000094; /*文章内容背景颜色*/
+}
+/*ced3d030*/
+
+.search-dialog {
+    background: #1a3450e0; /*搜索框背景颜色*/
+}
+#local-search .search-dialog .local-search-box input{
+    background: transparent; /*搜索框输入框背景颜色*/
+}
+#page-header #site-title  {
+    font-family: 'LiuFont', sans-serif; /* 标题字体 */
+    background: linear-gradient(to right, #9fe1fa, #f4edc9);
+    -webkit-background-clip: text; /* 背景剪裁为文字 */
+    -webkit-text-fill-color: transparent; /* 文字填充颜色透明 */
+}
+
+/*[data-theme='light'] #recent-posts > .recent-post-item, #aside-content, .card-widget {*/
+/*    background: #19191966; !*卡片背景颜色*!*/
+/*}*/
+
+.top-img {
+    display: none; /* 隐藏顶部图片 */
+}
+
+.recent-post-item {
+    display: flex;
+    border: 1px solid #ccc; /* 为整个容器添加边框 */
+
+}
+
+.post_cover.left {
+    margin: -11px; /* 负的外边距，使图片边界超出容器边框 */
+    /* 其他样式 */
+}
+
+blockquote {
+    background-color: #4e525082;
+    border-radius: 7px;
+}
+
+
+/*#go-up .scroll-percent {*/
+/*    display: none; !* 初始隐藏 *!*/
+/*    !*font-size: 16px;*!*/
+/*}*/
+
+/*#go-up i.fas.fa-arrow-up {*/
+/*    display: none; !* 初始隐藏 *!*/
+/*    !*font-size: 24px;*!*/
+/*}*/
+
